@@ -21,7 +21,7 @@ After cloning the repo,
 - after that, open [http://localhost:3000](http://localhost:3000) with any of your favorite browsers to see the result.
 
 ## Speciality of the Project
-  - This isn’t a typical to-do list app that stores everything in local storage, what’s fundamentally different is that we’re going to be responsible for setting up the API that communicates with the cloud database and persist the data to the cloud.
+  - This isn’t a typical to-do list app that stores everything in local storage, what’s fundamentally different is that we’re going to be responsible for setting up the API that communicates with the cloud database and persist the data to the cloud using MongoDB Atlas.
   - As for functionality, we’ve got the form and can enter a new task, and by submitting that we send off the **Post** request, and since we’re successful, we **Get** back all the tasks, and the newest task is added to the list. Then we can **Delete** the task. And if we want to **Update** that, we’ll see only the specific data on another page  about that one task. 
 
 ## Preview of the Project
